@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.avatar-l {
+    width: 32rem;
+}
+
+.avatar-m {
+    width: 24rem;
+}
+
+.avatar-s {
+    width: 16rem;
+}
