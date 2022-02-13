@@ -1,3 +1,9 @@
+:root {
+    --alert-primary-color: #93C5FD;
+    --alert-error-color: #ec4899;
+    --alert-success-color: #6ee787;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -37,13 +43,13 @@ html {
 }
 
 .alert-primary {
-    background-color: #93C5FD;
+    background-color: var(--alert-primary-color);
 }
 
 .alert-error {
-    background-color: #ec4899;
+    background-color: var(--alert-error-color);
 }
 
 .alert-success {
-    background-color: #6ee787;
+    background-color: var(--alert-success-color);
 }
