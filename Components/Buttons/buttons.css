@@ -1,6 +1,6 @@
 :root {
     --btn-primary-color: #93C5FD;
-    --btn-error-color: #ec4899;
+    --btn-secondary-color: #ec4899;
     --btn-link-color: #93C5FD;
     --btn-float-color: #ec4899;
     --btn-icon-color: #93C5FD;
@@ -36,8 +36,8 @@ html {
     background-color: var(--btn-primary-color);
 }
 
-.btn-error {
-    background-color: var(--btn-error-color);
+.btn-secondary {
+    background-color: var(--btn-secondary-color);
 }
 
 .btn-float {
