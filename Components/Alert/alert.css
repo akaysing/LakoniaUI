@@ -1,0 +1,55 @@
+:root {
+    --alert-primary-color: #93C5FD;
+    --alert-error-color: #ec4899;
+    --alert-success-color: #6ee787;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.alert {
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 35rem;
+    border-radius: 0.5rem;
+
+    padding: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alert-close {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.alert-primary {
+    background-color: var(--alert-primary-color);
+}
+
+.alert-error {
+    background-color: var(--alert-error-color);
+}
+
+.alert-success {
+    background-color: var(--alert-success-color);
+}
