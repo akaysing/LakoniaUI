@@ -1,0 +1,33 @@
+:root {
+    --image-width: 60rem;
+    --round-image-width: 15rem;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.image {
+    width: var(--image-width);
+    object-fit: cover;
+}
+
+.image-round {
+    border-radius: 50%;
+    width: var(--round-image-width);
+    object-fit: cover;
+}
