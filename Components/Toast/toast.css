@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.toast-wrapper {
+    position: fixed;
+    bottom: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    right: 0;
+}
+
+.toast {
+    background-color: #374151;
+    padding: 1.6rem;
+    border-radius: 0.5rem;
+}
+
+.toast-text {
+    color: whitesmoke;
+    font-size: 1.8rem;
+}
