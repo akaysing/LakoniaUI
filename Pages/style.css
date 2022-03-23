@@ -60,3 +60,13 @@ body {
     height: 10rem;
     margin: 1rem 0;
 }
+
+.doc-avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: max-content;
+    gap: 1rem;
+    padding: 2rem;
+}
