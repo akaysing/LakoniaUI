@@ -10,11 +10,14 @@ body {
     min-height: 100vh;
 }
 
+.sidebar {
+    width: 20%;
+}
+
 .sidebar-content li {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
 }
 
 .sidebar-nav-links li {
@@ -26,4 +29,34 @@ body {
     font-size: 1.6rem;
     width: 12rem;
     padding: 0.8rem;
+}
+
+.doc-container {
+    width: 80%;
+}
+
+.doc-content {
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.doc-heading {
+    padding-top: 2rem;
+}
+
+.doc-text {
+    padding-top: 2rem;
+}
+
+.doc-subheading {
+    padding-top: 2rem;
+}
+
+.doc-code-snippet {
+    width: 60rem;
+    height: 10rem;
+    margin: 1rem 0;
 }
