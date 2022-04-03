@@ -1,0 +1,110 @@
+@import url(../components.css);
+
+body {
+    display: block;
+    min-height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.sidebar-content li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sidebar-nav-links li {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.sidebar-nav-links li .btn {
+    font-size: 1.6rem;
+    width: 12rem;
+    padding: 0.8rem;
+}
+
+.doc-container {
+    width: 80%;
+}
+
+.doc-content {
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.doc-heading {
+    padding-top: 2rem;
+}
+
+.doc-text {
+    padding-top: 2rem;
+}
+
+.doc-subheading {
+    padding-top: 2rem;
+}
+
+.doc-code-snippet {
+    width: 60rem;
+    height: 10rem;
+    margin: 1rem 0;
+}
+
+.doc-avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: max-content;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.doc-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: max-content;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.doc-alert-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 2rem;
+    background-color: antiquewhite;
+    width: max-content;
+}
+
+.doc-modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 2rem;
+    width: max-content;
+}
+
+.demo-modal {
+    background-color: #f9fafb;
+    width: 35rem;
+    height: 20rem;
+    overflow: auto;
+}
