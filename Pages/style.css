@@ -91,3 +91,20 @@ body {
     background-color: antiquewhite;
     width: max-content;
 }
+
+.doc-modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 2rem;
+    width: max-content;
+}
+
+.demo-modal {
+    background-color: #f9fafb;
+    width: 35rem;
+    height: 20rem;
+    overflow: auto;
+}
