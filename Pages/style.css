@@ -70,3 +70,24 @@ body {
     gap: 1rem;
     padding: 2rem;
 }
+
+.doc-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: max-content;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.doc-alert-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 2rem;
+    background-color: antiquewhite;
+    width: max-content;
+}
