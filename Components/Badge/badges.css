@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.badge-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.icon-badge {
+    position: relative;
+    width: max-content;
+}
+
+.btn-icon-badge {
+    border: none;
+    width: max-content;
+    font-size: 3.2rem;
+    background-color: transparent;
+    outline: none;
+}
+
+.badge-notif {
+    position: absolute;
+    top: -0.5rem;
+    right: -0.8rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid white;
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-avatar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.avatar-badge {
+    position: relative;
+}
+
+.avatar-badge-l {
+    width: 24rem;
+}
+
+.avatar-badge-m {
+    width: 16rem;
+}
+
+.avatar-badge-s {
+    width: 8rem;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.badge-status {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.badge-status-l {
+    width: 2.4rem;
+    height: 2.4rem;
+    bottom: 2rem;
+    right: 3rem;
+}
+
+.badge-status-m {
+    width: 1.8rem;
+    height: 1.8rem;
+    bottom: 1rem;
+    right: 2rem;
+}
+
+.badge-status-s {
+    width: 1rem;
+    height: 1rem;
+    bottom: 1rem;
+    right: 0.5rem;
+}
+
+.online {
+    background-color: green;
+}
+
+.busy {
+    background-color: red;
+}
+
+.inactive {
+    background-color: grey;
+}
